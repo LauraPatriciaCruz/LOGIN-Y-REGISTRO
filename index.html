@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login y Registro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+        <main>
+
+            <div class="contenedorTodo">
+                <div class="cajaTrasera">
+                    <div class="cajaTrasera-login">
+                        <h3>¿YA TENÉS UNA CUENTA?</h3>
+                        <p>Inicia sesión para ingresar a la página</p>
+                        <button id="btnIniciar-sesion">Iniciar Sesión</button>
+                    </div>
+                    <div class="cajaTrasera-register">
+                        <h3>¿NO TENÉS CUENTA?</h3>
+                        <p>Registrate para iniciar sesión</p>
+                        <button id="btnRegistrarse">Registrate</button>
+                    </div>
+                </div>
+
+                <!--------------FORMULARIO DE LOGIN Y REGISTRO------------------>
+                <div class="contenedorLogin-register">
+                    <!--------------------------LOGIN--------------------------->
+                    <form action="" class="formularioLogin">
+                        <h2>Iniciar Sesión</h2>
+                        <span class="icon"><img src="imagenes/whiteIcon.png" alt=""></span>
+                        <input type="text" placeholder="E-mail">
+                        <input type="password" placeholder="Contraseña">
+                        <button>Entrar</button>
+                    </form>
+
+                    <!-------------------------REGISTRO------------------------->
+                    <form action="" class="formularioRegister">
+                        
+                        <h2>Registro</h2>
+                        <span class="icon"><img src="imagenes/whiteIcon.png" alt=""></span>
+                        <input type="text" placeholder="Nombre y Apellido">
+                        <input type="text" placeholder="E-mail">
+                        <input type="text" placeholder="Usuario">
+                        <input type="password" placeholder="Contraseña">
+                        <button>Registrar</button>
+                    </form>
+                </div>
+            </div>
+
+        </main>
+
+        <script src="js.js"></script>
+</body>
+</html>
