@@ -61,6 +61,7 @@ main{
 }
 
 .cajaTrasera button{
+    height: 50px;
     padding: 10px 40px;
     border: none;
     border-radius: 10px;
@@ -115,6 +116,7 @@ main{
 }
 .contenedorLogin-register form input{
     width: 100%;
+    height: 50px;
     margin-top: 20px;
     padding: 10px;
     border: none;
@@ -125,6 +127,7 @@ main{
     letter-spacing: 1px;
 }
 .contenedorLogin-register form button{
+    height: 50px;
     padding: 10px 40px;
     margin-top: 40px;
     border: none;
